@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:foo="http://schemas.android.com/apk/res/com.dengdeng123.blowupplane"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/action_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/friend_list_outer_bg"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="30dip" >
+
+        <LinearLayout
+            android:id="@+id/friend_tab_lnrlyt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dip"
+            android:background="@drawable/friend_list_tab"
+            android:orientation="horizontal" >
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/show_friend_list_txtv"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/friend_list"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf" />
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/show_apply_list_txtv"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/friend_apply"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf" />
+        </LinearLayout>
+
+        <me.maxwin.view.XListView
+            android:id="@+id/friend_lstv"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:background="@drawable/friend_list_inner_bg"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/white"
+            android:dividerHeight="1px"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false" />
+    </LinearLayout>
+
+</LinearLayout>

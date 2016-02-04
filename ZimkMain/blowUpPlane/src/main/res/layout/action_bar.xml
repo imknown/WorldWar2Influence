@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:foo="http://schemas.android.com/apk/res/com.dengdeng123.blowupplane"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_height"
+    android:background="@drawable/action_bar_bg"
+    android:padding="@dimen/border_default" >
+
+    <ImageView
+        android:id="@+id/action_bar_left_back_imgv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:src="@drawable/store_left_back" />
+
+    <!-- <ImageView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentTop="true" -->
+    <!-- android:layout_centerHorizontal="true" -->
+    <!-- android:contentDescription="@null" -->
+    <!-- android:src="@drawable/store_title_name" /> -->
+
+    <com.dengdeng123.blowupplane.widget.TextViewPlus
+        android:id="@+id/action_bar_title_txtv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/default_txt_size"
+        foo:customFont="yansong.otf" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="RelativeOverlap" >
+
+        <ImageView
+            android:id="@+id/action_bar_right_imgv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null" />
+
+        <com.dengdeng123.blowupplane.widget.TextViewPlus
+            android:id="@+id/action_bar_right_txtv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/default_txt_size" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="action_bar_height">40dip</dimen>
+    <dimen name="border_default">5dip</dimen>
+    <dimen name="up_icon_img_size">20dip</dimen>
+    <dimen name="up_icon_txt_size">13sp</dimen>
+    <dimen name="default_txt_size">20sp</dimen>
+    <dimen name="shoot_type_chooser_img_size">40dip</dimen>
+
+</resources>

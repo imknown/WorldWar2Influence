@@ -42,3 +42,4 @@ gen-external-apklibs/
 # IntelliJ Idea project files
 *.iml
 .idea/
+/.idea

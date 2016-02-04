@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:foo="http://schemas.android.com/apk/res/com.dengdeng123.blowupplane"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/store_lstv_item"
+        android:baselineAligned="true" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/store_shoot_type_imgv"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:contentDescription="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/up_icon_shoot_type_bomb" />
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/store_shoot_type_coin_txtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="50"                android:textColor="@color/button_bg_color"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="15dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="22dip"
+            android:paddingTop="15dip" >
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/store_shoot_type_txtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="炸彈"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf"
+                tools:ignore="HardcodedText" />
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/store_shoot_type_desc_txtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="攻擊攻擊攻擊攻擊攻擊000\n123456789"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/store_num_buy_lnrl"
+        android:layout_width="match_parent"
+        android:layout_height="44dip"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/border_default" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/store_num_buy_minus_btn"
+                android:layout_width="30dip"
+                android:layout_height="wrap_content"
+                android:background="@color/button_bg_color"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/store_num_buy_edttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/store_buy_box"
+                android:gravity="center"
+                android:inputType="text"
+                android:text="1"
+                android:textSize="@dimen/default_txt_size"
+                tools:ignore="HardcodedText" />
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/store_num_buy_addition_btn"
+                android:layout_width="30dip"
+                android:layout_height="wrap_content"
+                android:background="@color/button_bg_color"
+                android:gravity="center"
+                android:text="+"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <com.dengdeng123.blowupplane.widget.TextViewPlus
+            android:id="@+id/store_num_buy_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@color/button_bg_color"
+            android:gravity="center"
+            android:padding="@dimen/border_default"
+            android:text="@string/buy"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/default_txt_size"
+            foo:customFont="yansong.otf" />
+    </LinearLayout>
+
+</LinearLayout>

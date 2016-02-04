@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:foo="http://schemas.android.com/apk/res/com.dengdeng123.blowupplane"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.dengdeng123.blowupplane.widget.TextViewPlus
+        android:id="@+id/message_txtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_white_round_border"
+        android:gravity="center"
+        android:minHeight="55dip"
+        android:minWidth="200dip"
+        android:padding="5dip"
+        android:text="@string/unknown_exception"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        foo:customFont="yansong.otf" />
+
+</LinearLayout>

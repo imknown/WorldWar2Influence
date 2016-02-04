@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mode_choose" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/story_mode_btn"
+                android:layout_width="150dip"
+                android:layout_height="70dip"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/infinite_mode_btn"
+                android:layout_width="150dip"
+                android:layout_height="70dip"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/play_together_btn"
+                android:layout_width="150dip"
+                android:layout_height="70dip"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/show_user_info_btn"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/border_default"
+        android:background="@drawable/per" />
+
+    <TextView
+        android:id="@+id/show_rank_list_btn"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/show_user_info_btn"
+        android:layout_margin="@dimen/border_default"
+        android:background="@drawable/rank_list" />
+    <TextView
+        android:id="@+id/show_store_btn"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/show_rank_list_btn"
+        android:layout_margin="@dimen/border_default"
+        android:background="@drawable/store" />
+    
+    <TextView
+        android:id="@+id/show_friend_list_btn"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/show_store_btn"
+        android:layout_margin="@dimen/border_default"
+        android:background="@drawable/friend_list" />
+
+    <TextView
+        android:id="@+id/show_feedback_btn"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/show_friend_list_btn"
+        android:layout_margin="@dimen/border_default"
+        android:background="@drawable/feedback" />
+
+</RelativeLayout>

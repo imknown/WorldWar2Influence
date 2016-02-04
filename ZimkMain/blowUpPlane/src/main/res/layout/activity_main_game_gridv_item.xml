@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/gridview_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="32dip"
+        android:background="@color/gridview_item_bg_color"
+        android:contentDescription="@null"
+        android:padding="1dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/block_unclicked" />
+
+    <com.basv.gifmoviewview.widget.GifMovieView
+        android:id="@+id/gridview_imageview_gif"
+        android:layout_width="match_parent"
+        android:layout_height="32dip"
+        android:layout_gravity="center"
+        android:padding="1dip"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/gridview_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</FrameLayout>

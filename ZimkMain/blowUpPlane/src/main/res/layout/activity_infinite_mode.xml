@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:foo="http://schemas.android.com/apk/res/com.dengdeng123.blowupplane"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/infinite_mode_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/border_default" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/border_default"
+            android:baselineAligned="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="104dip"
+                android:layout_height="52dip"
+                android:background="@drawable/board_shoot_type_and_shootdown_num"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="3dip"
+                android:paddingRight="12dip" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="@dimen/up_icon_img_size"
+                        android:layout_height="@dimen/up_icon_img_size"
+                        android:contentDescription="@null"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/up_icon_plane" />
+
+                    <com.dengdeng123.blowupplane.widget.TextViewPlus
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/plane_number_shootdown"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/up_icon_txt_size"
+                        foo:customFont="yansong.otf" />
+
+                    <com.dengdeng123.blowupplane.widget.TextViewPlus
+                        android:id="@+id/plane_number_shootdown_real_txtv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/figure"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/up_icon_txt_size"
+                        foo:customFont="yansong.otf" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/number_left_imgv"
+                        android:layout_width="@dimen/up_icon_img_size"
+                        android:layout_height="@dimen/up_icon_img_size"
+                        android:contentDescription="@null"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/up_icon_shoot_type_bullet" />
+
+                    <com.dengdeng123.blowupplane.widget.TextViewPlus
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/number_left"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/up_icon_txt_size"
+                        foo:customFont="yansong.otf" />
+
+                    <com.dengdeng123.blowupplane.widget.TextViewPlus
+                        android:id="@+id/number_left_real_txtv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/figure"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/up_icon_txt_size"
+                        foo:customFont="yansong.otf" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dip"
+                android:layout_height="52dip"
+                android:background="@drawable/board_mission_and_award"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dip" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <com.dengdeng123.blowupplane.widget.TextViewPlus
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mission_stage"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/up_icon_txt_size"
+                            foo:customFont="yansong.otf" />
+
+                        <com.dengdeng123.blowupplane.widget.TextViewPlus
+                            android:id="@+id/mission_real_txtv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/border_default"
+                            android:text="@string/figureDecimal"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/up_icon_txt_size"
+                            foo:customFont="yansong.otf" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <com.dengdeng123.blowupplane.widget.TextViewPlus
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/award_num"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/up_icon_txt_size"
+                            foo:customFont="yansong.otf" />
+
+                        <com.dengdeng123.blowupplane.widget.TextViewPlus
+                            android:id="@+id/award_real_txtv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/border_default"
+                            android:text="@string/figure"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/up_icon_txt_size"
+                            foo:customFont="yansong.otf" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="@dimen/up_icon_img_size"
+                        android:layout_height="@dimen/up_icon_img_size"
+                        android:contentDescription="@null"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/up_icon_plane" />
+
+                    <ImageView
+                        android:id="@+id/up_icon_shoot_type_bomb_img"
+                        android:layout_width="@dimen/up_icon_img_size"
+                        android:layout_height="@dimen/up_icon_img_size"
+                        android:contentDescription="@null"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/up_icon_shoot_type_bomb" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <!-- android:background="@drawable/infinite_mode_game_page_grdv_bg" -->
+
+            <GridView
+                android:id="@+id/gridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:cacheColorHint="@android:color/transparent"
+                android:gravity="center"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="10"
+                android:stretchMode="columnWidth" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dip"
+            android:layout_marginTop="@dimen/border_default"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="70dip"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/shoot_type_headshot_imgv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/twinkling_headshot" />
+
+                <TextView
+                    android:id="@+id/shoot_type_headshot_num_txtv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/figure"
+                    android:textColor="@color/button_bg_color" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <include layout="@layout/activity_main_game_shoot_type_selector" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/menu_imgv"
+                android:layout_width="80dip"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:contentDescription="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/menu" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/anim_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </FrameLayout>
+
+</FrameLayout>

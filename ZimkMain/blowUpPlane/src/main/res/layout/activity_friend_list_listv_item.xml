@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:foo="http://schemas.android.com/apk/res/com.dengdeng123.blowupplane"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:baselineAligned="false"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/border_default" >
+
+    <com.dengdeng123.blowupplane.widget.TextViewPlus
+        android:id="@+id/sequence_number_txtv"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/sequence_number"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/up_icon_txt_size"
+        foo:customFont="yansong.otf" />
+
+    <com.dengdeng123.blowupplane.widget.TextViewPlus
+        android:id="@+id/friend_name_txtv"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/nickname"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/up_icon_txt_size"
+        foo:customFont="yansong.otf" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <com.dengdeng123.blowupplane.widget.TextViewPlus
+            android:id="@+id/accept_apply_txtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/border_default"
+            android:background="@drawable/accept"
+            android:gravity="center"
+            android:singleLine="true"
+            foo:customFont="yansong.otf" />
+
+        <com.dengdeng123.blowupplane.widget.TextViewPlus
+            android:id="@+id/refuse_apply_txtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/refuse"
+            android:gravity="center"
+            android:singleLine="true"
+            foo:customFont="yansong.otf" />
+    </LinearLayout>
+
+</LinearLayout>

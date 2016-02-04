@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:foo="http://schemas.android.com/apk/res/com.dengdeng123.blowupplane"
+    android:layout_width="match_parent"
+    android:layout_height="30dip"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="@dimen/border_default" >
+
+    <com.dengdeng123.blowupplane.widget.TextViewPlus
+        android:id="@+id/rank_txtv"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/rank"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/up_icon_txt_size"
+        foo:customFont="yansong.otf" />
+
+    <com.dengdeng123.blowupplane.widget.TextViewPlus
+        android:id="@+id/nickname_txtv"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/nickname"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/up_icon_txt_size"
+        foo:customFont="yansong.otf" />
+
+    <com.dengdeng123.blowupplane.widget.TextViewPlus
+        android:id="@+id/shotdown_total_txtv"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/shotdown_total"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/up_icon_txt_size"
+        foo:customFont="yansong.otf" />
+
+</LinearLayout>

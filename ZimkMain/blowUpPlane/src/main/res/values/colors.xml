@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gridview_item_bg_color">#A5F5B0</color>
+    <color name="button_bg_color">#FFA042</color>
+    <color name="translucence_black">#AA000000</color>
+    <color name="translucence_white">#AAFFFFFF</color>
+
+</resources>

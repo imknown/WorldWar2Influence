@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <include layout="@layout/action_bar" />
+
+    <HorizontalScrollView
+        android:id="@+id/map_hrztl_scrlv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/map_bg_imgv"
+                android:layout_width="800dip"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/map_ussr_germany" />
+
+            <ImageView
+                android:id="@+id/map_stage_1"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="0dip"
+                android:layout_marginTop="0dip"
+                android:contentDescription="@null"
+                android:src="@drawable/snipe" />
+
+            <ImageView
+                android:id="@+id/map_stage_2"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="30dip"
+                android:layout_marginTop="30dip"
+                android:contentDescription="@null"
+                android:src="@drawable/snipe" />
+
+            <ImageView
+                android:id="@+id/map_stage_3"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="60dip"
+                android:layout_marginTop="60dip"
+                android:contentDescription="@null"
+                android:src="@drawable/snipe" />
+
+            <ImageView
+                android:id="@+id/map_stage_4"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="90dip"
+                android:layout_marginTop="90dip"
+                android:contentDescription="@null"
+                android:src="@drawable/snipe" />
+
+            <ImageView
+                android:id="@+id/map_stage_5"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="120dip"
+                android:layout_marginTop="120dip"
+                android:contentDescription="@null"
+                android:src="@drawable/snipe" />
+        </FrameLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

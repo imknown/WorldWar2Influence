@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:foo="http://schemas.android.com/apk/res/com.dengdeng123.blowupplane"
+    android:layout_width="match_parent"
+    android:layout_height="400dip"
+    android:background="@drawable/pause_bg" >
+
+    <com.dengdeng123.blowupplane.widget.TextViewPlus
+        android:id="@+id/menu_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/title_img"
+        android:gravity="center"
+        android:padding="@dimen/border_default"
+        android:paddingLeft="@dimen/border_default"
+        android:paddingRight="@dimen/border_default"
+        android:text="@string/add_friend"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/default_txt_size"
+        foo:customFont="yansong.otf" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <com.dengdeng123.blowupplane.widget.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dip"
+            android:text="@string/input_userid"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/default_txt_size"
+            foo:customFont="yansong.otf" />
+
+        <EditText
+            android:id="@+id/userid_input_edttxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:background="@drawable/store_buy_box"
+            android:gravity="center"
+            android:inputType="number"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip" />
+
+        <com.dengdeng123.blowupplane.widget.TextViewPlus
+            android:id="@+id/send_add_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/store_btn_bg"
+            android:gravity="center"
+            android:text="@string/confirm"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/default_txt_size"
+            foo:customFont="yansong.otf" />
+    </LinearLayout>
+
+</RelativeLayout>

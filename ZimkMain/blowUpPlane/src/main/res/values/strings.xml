@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">二戰風雲</string>
+    <string name="unknown_exception">很抱歉, 程序出現了問題.\n日誌正在保存,\n請聯繫我們以獲取幫助.</string>
+
+    <!-- 游戏界面 -->
+    <string name="plane_number_shootdown">已擊落</string>
+    <string name="number_left">剩餘數</string>
+    <string name="mission_stage">任務</string>
+    <string name="award_num">獎勵</string>
+    <string name="figure">0</string>
+    <string name="figureDecimal">0/5</string>
+    <string name="press_twice_to_exit">再按一次退出程序</string>
+
+    <!-- 无尽模式 -->
+    <string name="no_prop_left">道具已用盡!</string>
+    <string name="end">結束</string>
+    <string name="bullet_used">使用炮彈數:</string>
+    <string name="bomb_used">使用炸彈數:</string>
+    <string name="shotdown_num">擊殺數:</string>
+    <string name="award_coin_num">獎勵金幣數:</string>
+    <string name="settlement_fail_reason_detail">由於網絡等原因, 導致結算失敗\n點擊"重試重新"嘗試重新結算, 點擊"返回菜單"放棄結算</string>
+    <!-- <string name="settlement_fail">結算失敗</string> -->
+    <!-- <string name="settlement_success">結算成功</string> -->
+    <string name="retry_settlement">重新結算</string>
+
+    <!-- 闯关模式 -->
+    <string name="story_mode">闖關模式</string>
+    <string name="ussr_germany_battlefield">蘇德戰場</string>
+    <string name="western_europe_battlefield">西歐戰場</string>
+    <string name="pacific_battlefield">太平洋戰場</string>
+    <string name="china_battlefield">中國戰場</string>
+    <string name="ussr_germany_battlefield_vertical">蘇\n德\n戰\n場</string>
+    <string name="western_europe_battlefield_vertical">西\n歐\n戰\n場</string>
+    <string name="pacific_battlefield_vertical">太\n平\n洋\n戰\n場</string>
+    <string name="china_battlefield_vertical">中\n國\n戰\n場</string>
+    <string name="unlocker_next_stage_fail">解鎖下一個關卡失敗</string>
+    <string name="stage_cleared_success">闖關成功</string>
+    <string name="stage_cleared_fail">闖關失敗</string>
+
+    <!-- 好友对战 -->
+    <string name="under_construction">敬請期待</string>
+
+    <!-- 商店 -->
+    <string name="store">商店</string>
+    <!-- <string name="goto_store">進入商店</string> -->
+    <string name="buy">購買</string>
+    <string name="how_many_coins">金幣%1$s枚</string>
+    <string name="how_much_rmb">%1$s人民幣</string>
+    <string name="payment">支付</string>
+    <string name="price_exchange_rate">價格:%1$s元=%2$s枚</string>
+    <string name="buy_success">購買成功</string>
+    <string name="buy_failed">購買失敗</string>
+    <string name="buy_balance_not_enough">餘額不足</string>
+    <string name="buy_number_not_zero">數量不可為零</string>
+    <string name="menu">菜單</string>
+    <string name="paly_help">幫助</string>
+    <string name="back_to_menu">返回菜單</string>
+    <string name="back_to_game">返回遊戲</string>
+    <string name="back_to_choose_map">返回地圖</string>
+    <string name="pay_success">支付成功</string>
+    <string name="pay_to_be_confirmed">支付結果確認中</string>
+    <string name="pay_failed">支付失敗</string>
+    <string name="get_out_trade_no_fail">獲取訂單號失敗</string>
+
+    <!-- 登录注册 -->
+    <string name="guest_sign_in">遊客登錄</string>
+    <string name="sign_up">註冊</string>
+    <string name="sign_up_success">註冊成功</string>
+    <string name="sign_up_failed">註冊失敗</string>
+    <string name="sign_in">登錄</string>
+    <string name="sign_in_failed">登錄失敗</string>
+    <string name="sign_user_not_exist_failed_blur">用戶名或密碼錯誤</string>
+    <!-- <string name="sign_user_not_exist_failed_1">用戶不存在</string> -->
+    <string name="sign_user_has_exist_failed_2">用戶已被佔用!</string>
+    <!-- <string name="sign_password_uncorrect_failed_2">密碼錯誤</string> -->
+    <string name="sign_in_success">登錄成功</string>
+    <!-- <string name="sign_out">登出</string> -->
+    <string name="sign_out_success">登出成功</string>
+    <string name="sign_in_first">請先登錄</string>
+    <string name="sign_in_first_when_ram_info_lost">內存已被清理, 請重新登錄</string>
+
+    <!-- 个人信息 -->
+    <string name="user_info">個人信息</string>
+    <string name="get_user_info_fail">获取個人信息失败</string>
+    <string name="user_id_is">用戶ID:&#160;%1$s</string>
+    <string name="user_name_is">用戶名:&#160;%1$s</string>
+    <string name="coin_num_is">金幣數:&#160;%1$s</string>
+    <string name="bomb_num_is">炸彈道具數:&#160;%1$s</string>
+    <string name="headshot_num_is">爆頭道具數:&#160;%1$s</string>
+    <string name="plane_num_shootdown_is">擊落飛機數:&#160;%1$s</string>
+    <string name="username_disallow_empty">用戶名不能為空</string>
+    <string name="password_disallow_empty">密碼不能為空</string>
+    <string name="confirm_password_disallow_empty">確認密碼不能為空</string>
+    <string name="confirm_password_is_not_equals_password">兩次密碼必須一致</string>
+    <string name="coin_num_is_not_enough">金幣數量不足</string>
+
+    <!-- 排行榜 -->
+    <string name="ranking_list">排行榜</string>
+    <string name="rank">名次</string>
+    <string name="sequence_number">序號</string>
+    <string name="nickname">暱稱</string>
+    <string name="shotdown_total">擊落數</string>
+    <string name="no_more_info">沒有新數據了</string>
+    <string name="get_ranking_list_fail">獲取排行榜失敗</string>
+    <string name="global_scroe">世界積分</string>
+    <string name="global_infinite">世界無盡</string>
+    <string name="friend_scroe">好友積分</string>
+    <string name="friend_infinite">好友無盡</string>
+
+    <!-- 好用列表 -->
+    <string name="friend_list">好友列表</string>
+    <string name="friend_apply">好友申請</string>
+    <string name="add_friend">添加好友</string>
+    <string name="input_userid">請輸入玩家 ID</string>
+    <string name="add_friend_success">申請成功</string>
+    <string name="add_friend_fail">添加好友失敗</string>
+    <string name="add_friend_fail_2_not_allow_self">不能添加自己為好友</string>
+    <string name="add_friend_fail_3_userid_not_exist">所加好友不存在</string>
+    <string name="add_friend_fail_4_already_friend">該玩家已是您好友</string>
+    <string name="add_friend_fail_5_already_send_add_request">已經申請</string>
+    <string name="get_friend_fail">獲取好友數據失敗</string>
+    <string name="accept_friend_apply_success">操作成功, 您現在已是對方好友</string>
+    <string name="accept_friend_apply_fail">操作失敗, 請重新點擊"同意"</string>
+    <string name="refuse_friend_apply_success">操作成功, 您已拒絕了對方的好友請求</string>
+    <string name="refuse_friend_apply_fail">操作失敗, 請重新點擊"拒絕"</string>
+
+    <!-- 反馈 -->
+    <string name="feedback">反饋</string>
+    <string name="send">發送</string>
+    <string name="input_feedback_content">請輸入意見反饋</string>
+    <string name="feedback_disallow_empty">反饋內容不能為空</string>
+    <string name="feedback_success">反饋成功</string>
+    <string name="feedback_failed">反饋失敗</string>
+
+    <!-- 检测更新 -->
+    <!-- <string name="tips_waiting">正在獲取數據…</string> -->
+    <!-- <string name="str_checkver">檢查更新</string> -->
+    <string name="checkver_fail">檢查更新失敗</string>
+    <string name="str_update">升級</string>
+    <string name="str_notupdate">暫不升級</string>
+    <!-- <string name="download_failed">下載失敗</string> -->
+    <!-- <string name="str_updateing">正在下載升級文件！</string> -->
+    <string name="str_exitapp">退出程序</string>
+    <string name="str_more_update_isupdating">程序已在後台下載中!</string>
+    <string name="str_more_update_notification_tips">程序正在下載更新文件!</string>
+    <string name="str_more_update_notification_download_sucess">程序更新文件下載完成,&#160;點擊安裝!</string>
+    <string name="str_more_update_no_need_update">您的版本為最新版本,&#160;不需要更新</string>
+    <!-- <string name="str_current_app_version">當前版本:&#160;v</string> -->
+    <!-- <string name="login_timeout">閒置時間過長,&#160;請重新登錄</string> -->
+    <!-- <string name="nav_exit">安全退出</string> -->
+    <!-- <string name="exit_message">確定退出?</string> -->
+    <!-- <string name="nav_logout">註銷</string> -->
+    <!-- <string name="logout_message">確認要註銷嗎?</string> -->
+    <!-- <string name="tips_network_error_1">無法連接網絡,&#160;請檢查網絡配置</string> -->
+    <string name="tips_network_error_2">網絡異常,&#160;請稍後重試</string>
+    <string name="confirm">確定</string>
+    <string name="str_prompt">提示</string>
+
+</resources>

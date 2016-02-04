@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:foo="http://schemas.android.com/apk/res/com.dengdeng123.blowupplane"
+    android:layout_width="match_parent"
+    android:layout_height="400dip"
+    android:background="@drawable/pause_bg" >
+
+    <com.dengdeng123.blowupplane.widget.TextViewPlus
+        android:id="@+id/menu_title_txtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/title_img"
+        android:gravity="center"
+        android:paddingLeft="@dimen/border_default"
+        android:paddingRight="@dimen/border_default"
+        android:text="@string/end"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/default_txt_size"
+        foo:customFont="yansong.otf" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu_title_txtv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp" >
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/bullet_used_txtv"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/bullet_used"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf" />
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/bullet_real_used_txtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/figure"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp" >
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/bomb_used_txtv"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/bomb_used"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf" />
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/bomb_real_used_txtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/figure"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp" >
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/shotdown_num_txtv"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/shotdown_num"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf" />
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/shotdown_real_num_txtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/figure"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/award_coin_num_lnrlyt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp" >
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/award_coin_num_txtv"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/award_coin_num"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf" />
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/award_coin_real_num_txtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/figure"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="15dip" >
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/settlement_fail_txtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settlement_fail_reason_detail"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                foo:customFont="yansong.otf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:gravity="center" >
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/back_to_last_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/border_default"
+                android:background="@drawable/store_btn_bg"
+                android:gravity="center"
+                android:text="@string/back_to_menu"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf" />
+
+            <com.dengdeng123.blowupplane.widget.TextViewPlus
+                android:id="@+id/retry_settlement_txtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/store_btn_bg"
+                android:gravity="center"
+                android:text="@string/retry_settlement"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/default_txt_size"
+                foo:customFont="yansong.otf" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

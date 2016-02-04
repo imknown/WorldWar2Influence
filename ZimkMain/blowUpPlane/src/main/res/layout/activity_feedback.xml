@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/action_bar" />
+
+    <EditText
+        android:id="@+id/input_feedback_content_edttxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_default"
+        android:gravity="top"
+        android:hint="@string/input_feedback_content"
+        android:minLines="6" />
+
+</LinearLayout>

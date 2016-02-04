@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <include layout="@layout/action_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <View
+            android:id="@+id/strut"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@id/strut"
+            android:layout_margin="@dimen/border_default" >
+
+            <ImageView
+                android:id="@+id/map_ussr_germany_imgv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/map_chooser_ussr_germany" />
+
+            <include
+                android:id="@+id/map_ussr_germany_drop_down_curtain_imgv"
+                layout="@layout/activity_choose_map_drop_down_curtain"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@id/strut"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/border_default" >
+
+            <ImageView
+                android:id="@+id/map_western_europe_imgv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/map_chooser_western_europe" />
+
+            <include
+                android:id="@+id/map_western_europe_drop_down_curtain_imgv"
+                layout="@layout/activity_choose_map_drop_down_curtain"
+                android:visibility="gone" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <View
+            android:id="@+id/strut2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <FrameLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@id/strut2"
+            android:layout_margin="@dimen/border_default" >
+
+            <ImageView
+                android:id="@+id/map_pacific_imgv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/map_chooser_pacific" />
+
+            <include
+                android:id="@+id/map_pacific_drop_down_curtain_imgv"
+                layout="@layout/activity_choose_map_drop_down_curtain"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@id/strut2"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/border_default" >
+
+            <ImageView
+                android:id="@+id/map_china_imgv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/map_chooser_china" />
+
+            <include
+                android:id="@+id/map_china_drop_down_curtain_imgv"
+                layout="@layout/activity_choose_map_drop_down_curtain"
+                android:visibility="gone" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</LinearLayout>

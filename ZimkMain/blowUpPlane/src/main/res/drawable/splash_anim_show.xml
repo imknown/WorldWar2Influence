@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item android:duration="200" android:drawable="@drawable/splash_01" />
+	<item android:duration="200" android:drawable="@drawable/splash_02" />
+	<item android:duration="200" android:drawable="@drawable/splash_03" />
+	<item android:duration="200" android:drawable="@drawable/splash_04" />
+	<item android:duration="200" android:drawable="@drawable/splash_05" />
+	<item android:duration="200" android:drawable="@drawable/splash_06" />
+	<item android:duration="200" android:drawable="@drawable/splash_07" />
+	<item android:duration="200" android:drawable="@drawable/splash_08" />
+	<item android:duration="200" android:drawable="@drawable/splash_09" />
+	<item android:duration="200" android:drawable="@drawable/splash_10" />
+	<item android:duration="200" android:drawable="@drawable/splash_11" />
+	<item android:duration="200" android:drawable="@drawable/splash_12" />
+	<item android:duration="200" android:drawable="@drawable/splash_13" />
+	<item android:duration="200" android:drawable="@drawable/splash_14" />
+	<item android:duration="200" android:drawable="@drawable/splash_15" />
+	<item android:duration="200" android:drawable="@drawable/splash_16" />
+	<item android:duration="200" android:drawable="@drawable/splash_17" />
+	<item android:duration="200" android:drawable="@drawable/splash_18" />
+	<item android:duration="2200" android:drawable="@drawable/splash_19" />
+
+</animation-list> 
