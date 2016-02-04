@@ -1,1 +1,2 @@
-include ':app'
+include ':ZimkLib:gifmovieviewlib', ':ZimkLib:xListView', ':ZimkLib:xUtilsLibrary'
+include 'ZimkMain:blowUpPlane'
