@@ -1,12 +1,12 @@
 # Built application files
-*.apk
-*.ap_
+#*.apk
+#*.ap_
 
 # files for the dex VM
-*.dex
+#*.dex
 
 # Java class files
-*.class
+#*.class
 
 # Gradle files
 .gradle/
@@ -42,4 +42,3 @@ gen-external-apklibs/
 # IntelliJ Idea project files
 *.iml
 .idea/
-/.idea
