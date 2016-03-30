@@ -29,7 +29,7 @@ dependencies {
 
     compile "com.android.support:support-v4:$support_version"
 
-    compile project(':ZimkLib:GifMovieViewLib')
-    compile project(':ZimkLib:xUtilsLibrary')
-    compile project(':ZimkLib:xListView')
+    compile project(':ZimkLib:GifMovieViewForAndroidStudio')
+    compile project(':ZimkLib:XListViewForAndroidStudio')
+    compile project(':ZimkLib:xUtils2LibraryForAndroidStudio')
 }

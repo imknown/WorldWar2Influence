@@ -1,0 +1,9 @@
+[submodule "ZimkLib/GifMovieViewForAndroidStudio"]
+	path = ZimkLib/GifMovieViewForAndroidStudio
+	url = https://github.com/imknown/GifMovieViewForAndroidStudio.git
+[submodule "ZimkLib/XListViewForAndroidStudio"]
+	path = ZimkLib/XListViewForAndroidStudio
+	url = https://github.com/imknown/XListViewForAndroidStudio.git
+[submodule "ZimkLib/xUtils2LibraryForAndroidStudio"]
+	path = ZimkLib/xUtils2LibraryForAndroidStudio
+	url = https://github.com/imknown/xUtils2LibraryForAndroidStudio.git
