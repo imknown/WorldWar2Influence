@@ -1,2 +1,10 @@
-include ':ZimkLib:GifMovieViewLib', ':ZimkLib:xListView', ':ZimkLib:xUtilsLibrary'
+// https://github.com/imknown/GifMovieViewForAndroidStudio.git
+include ':ZimkLib:GifMovieViewLib'
+
+// https://github.com/imknown/XListViewForAndroidStudio.git
+include ':ZimkLib:xListView'
+
+// https://github.com/imknown/xUtils2LibraryForAndroidStudio.git
+include ':ZimkLib:xUtilsLibrary'
+
 include ':ZimkMain:BlowUpPlane'
