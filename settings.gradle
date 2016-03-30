@@ -7,4 +7,4 @@ include ':ZimkLib:XListViewForAndroidStudio'
 // https://github.com/imknown/xUtils2LibraryForAndroidStudio.git
 include ':ZimkLib:xUtils2LibraryForAndroidStudio'
 
-include ':ZimkMain:BlowUpPlane'
+include ':ZimkMain:blowUpPlane'
